@@ -14,28 +14,33 @@ Protocols:
             uri: ../lists/train.meetings.txt
             annotation: ../only_words/rttms/train/{uri}.rttm
             annotated: ../uems/train/{uri}.uem
+            lab: ../only_words/labs/train/{uri}.lab
         development:
             uri: ../lists/dev.meetings.txt
             annotation: ../only_words/rttms/dev/{uri}.rttm
             annotated: ../uems/dev/{uri}.uem
+            lab: ../only_words/labs/dev/{uri}.lab
         test:
             uri: ../lists/test.meetings.txt
             annotation: ../only_words/rttms/test/{uri}.rttm
             annotated: ../uems/test/{uri}.uem
+            lab: ../only_words/labs/test/{uri}.lab
       mini:
         train:
           uri: ../lists/train.mini.txt
           annotation: ../only_words/rttms/train/{uri}.rttm
           annotated: ../uems/train/{uri}.uem
+          lab: ../only_words/labs/train/{uri}.lab
         development:
           uri: ../lists/dev.mini.txt
           annotation: ../only_words/rttms/dev/{uri}.rttm
           annotated: ../uems/dev/{uri}.uem
+          lab: ../only_words/labs/dev/{uri}.lab
         test:
           uri: ../lists/test.mini.txt
           annotation: ../only_words/rttms/test/{uri}.rttm
           annotated: ../uems/test/{uri}.uem
-
+          lab: ../only_words/labs/test/{uri}.lab
   AMI:
     SpeakerDiarization:
       only_words:
@@ -43,39 +48,48 @@ Protocols:
             uri: ../lists/train.meetings.txt
             annotation: ../only_words/rttms/train/{uri}.rttm
             annotated: ../uems/train/{uri}.uem
+            lab: ../only_words/labs/train/{uri}.lab
         development:
             uri: ../lists/dev.meetings.txt
             annotation: ../only_words/rttms/dev/{uri}.rttm
             annotated: ../uems/dev/{uri}.uem
+            lab: ../only_words/labs/dev/{uri}.lab
         test:
             uri: ../lists/test.meetings.txt
             annotation: ../only_words/rttms/test/{uri}.rttm
             annotated: ../uems/test/{uri}.uem
+            lab: ../only_words/labs/test/{uri}.lab
 
       mini:
         train:
           uri: ../lists/train.mini.txt
           annotation: ../only_words/rttms/train/{uri}.rttm
           annotated: ../uems/train/{uri}.uem
+          lab: ../only_words/labs/train/{uri}.lab
         development:
           uri: ../lists/dev.mini.txt
           annotation: ../only_words/rttms/dev/{uri}.rttm
           annotated: ../uems/dev/{uri}.uem
+          lab: ../only_words/labs/dev/{uri}.lab
         test:
           uri: ../lists/test.mini.txt
           annotation: ../only_words/rttms/test/{uri}.rttm
           annotated: ../uems/test/{uri}.uem
+          lab: ../only_words/labs/test/{uri}.lab
  
       word_and_vocalsounds:
         train:
             uri: ../lists/train.meetings.txt
             annotation: ../word_and_vocalsounds/rttms/train/{uri}.rttm
             annotated: ../uems/train/{uri}.uem
+            lab: ../word_and_vocalsounds/labs/train/{uri}.lab
         development:
             uri: ../lists/dev.meetings.txt
             annotation: ../word_and_vocalsounds/rttms/dev/{uri}.rttm
             annotated: ../uems/dev/{uri}.uem
+            lab: ../word_and_vocalsounds/labs/dev/{uri}.lab
         test:
             uri: ../lists/test.meetings.txt
             annotation: ../word_and_vocalsounds/rttms/test/{uri}.rttm
             annotated: ../uems/test/{uri}.uem
+            lab: ../word_and_vocalsounds/labs/test/{uri}.lab
